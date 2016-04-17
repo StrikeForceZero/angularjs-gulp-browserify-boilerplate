@@ -41,7 +41,7 @@ function buildScript(file) {
   }
 
   function loadBrowserPlatform(){
-    var platformWWW = './platforms/browser/www/';
+    let platformWWW = './platforms/browser/www/';
 
     if(!fs.existsSync(platformWWW)){
       handleErrors('Browser platform not installed!!! Cordova will FAIL');

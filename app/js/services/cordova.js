@@ -4,9 +4,9 @@
 function CordovaService($document, $timeout, $window, $q) {
   'ngInject';
 
-  const defer = $q.defer();
+  const self = this;
 
-  let self = this;
+  const defer = $q.defer();
 
   self.ready = defer.promise;
 
