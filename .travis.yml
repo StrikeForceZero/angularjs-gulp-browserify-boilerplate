@@ -4,8 +4,6 @@ node_js:
 sudo: false
 
 before_script:
-  - npm install -g bower
-  - bower install
   - npm install -g cordova
   - cordova plugin add cordova-plugin-device
   - cordova platform add browser
@@ -17,7 +15,6 @@ script:
 cache:
   directories:
     - node_modules
-    - bower_components
 
 addons:
   sauce_connect: true

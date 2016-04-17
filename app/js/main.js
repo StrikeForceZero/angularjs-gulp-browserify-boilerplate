@@ -11,7 +11,7 @@ import './controllers';
 import './services';
 import './directives';
 
-import 'ngCordova';
+import 'ng-cordova';
 
 // create and bootstrap application
 const requires = [
