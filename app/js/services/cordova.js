@@ -18,7 +18,7 @@ function CordovaService($document, $timeout, $window, $q) {
     if ($window.cordova){
       defer.resolve($window.cordova);
     } else {
-      defer.reject("Cordova failed to load");
+      defer.reject('Cordova failed to load');
     }
   }, 1200);
 
