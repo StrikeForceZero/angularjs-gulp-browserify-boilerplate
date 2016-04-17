@@ -21,8 +21,8 @@ describe('Unit: ExampleCtrl', function() {
     expect(ctrl.number).toEqual(1234);
   });
 
-  it('should have a title variable equal to \'AngularJS, Gulp, and Browserify!\'', function() {
-    expect(ctrl.title).toEqual('AngularJS, Gulp, and Browserify! Written with keyboards and love!');
+  it('should have a title variable equal to \'AngularJS, Cordova, Gulp, and Browserify! Written with keyboards and love!\'', function() {
+    expect(ctrl.title).toEqual('AngularJS, Cordova, Gulp, and Browserify! Written with keyboards and love!');
   });
 
 });
