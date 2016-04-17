@@ -14,12 +14,11 @@ A boilerplate using AngularJS SASS, Gulp, and Browserify that also utilizes [the
 
 1. Clone this repo from `https://github.com/StrikeForceZero/angularjs-cordova-gulp-browserify-boilerplate.git`
 2. Run `npm install` from the root directory
-3. Run `bower install` from the root directory (may require installing Bower globally `npm install bower -g`)
-4. Run `cordova plugin add cordova-plugin-device` (may require installing Cordova globally `npm install cordova -g`)
-5. Run `cordova platform add browser`
-6. Run `gulp dev` (may require installing Gulp globally `npm install gulp -g`)
-7. Your browser will automatically be opened and directed to the browser-sync proxy address
-8. To prepare assets for production, run the `gulp prod` task (Note: the production task does not fire up the express server, and won't provide you with browser-sync's live reloading. Simply use `gulp dev` during development. More information below)
+3. Run `cordova plugin add cordova-plugin-device` (may require installing Cordova globally `npm install cordova -g`)
+4. Run `cordova platform add browser`
+5. Run `gulp dev` (may require installing Gulp globally `npm install gulp -g`)
+6. Your browser will automatically be opened and directed to the browser-sync proxy address
+7. To prepare assets for production, run the `gulp prod` task (Note: the production task does not fire up the express server, and won't provide you with browser-sync's live reloading. Simply use `gulp dev` during development. More information below)
 
 Now that `gulp dev` is running, the server is up as well and serving files from the `/www` directory. Any changes in the `/app` directory will be automatically processed by Gulp and the changes will be injected to any open browsers pointed at the proxy address.
 
