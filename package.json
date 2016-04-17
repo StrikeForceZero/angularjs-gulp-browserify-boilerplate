@@ -1,6 +1,6 @@
 {
   "name": "angularjs-cordova-gulp-browserify-boilerplate",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "author": "Brett Striker <strikeforcezero@gmail.com>",
   "description": "Boilerplate using AngularJS, Cordova, SASS, Gulp, and Browserify while also utilizing best practices.",
   "contributors": [{
