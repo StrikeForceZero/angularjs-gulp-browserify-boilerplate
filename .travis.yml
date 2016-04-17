@@ -17,7 +17,7 @@ cache:
     - node_modules
 
 addons:
-  sauce_connect: true
+  sauce_connect:
       username: "bstriker"
       access_key:
           secure: "UFPyXvQgwehYFW58aMItiqiM/QoYB+F9CjbW2K8xyPI3bMAFHy+bZhqXyDXWfgNmTcLgD2RYU4FPG8V7ugsftBVk6GKU0KTBGMkMqiGb+S9Yc5sX0AF4BX6wAvyAZAaeYXwuBtLHeNx+QUnlivbN2OGaQgqqe3UF0dm2FsqMaLp/p834eFDKK7YyN3718myV6rBRE/2vdsKa+6AG8LnVPRMaE0qv6J2i+C/NWtnREKXS5/FnefoQEugwbOtJ5HttpNwzug7519ZFNyGRPoyBVOWpy+6jJXl2a5qN7Z31TafrtYPmqI2spkTVPPKVtlsZcMRN2/8otD/Q5yZQRhqbXdgM7cfqiah7C2PNyGK/Swi6R6gCm8TMju5oMUKlPhGB7yAZXMMlP/vDbccFVqawlGt8NueHC+6atCJPl9QSqge3wXCGj4mxSdGLmaYM4/LLcBrnS7wNXxxneKlbJxmyH+GnNphOeqq8dsUqExMBlavFcaO4FJalgyf5fHSzRyB3CGxrdFvIeEyveZIkCXN0wGL6c+qcqEf9QdKI6i880i6SqmvMQ79m405h7MRDUv08QGZVEHJ+Fz9+nYRL048SQxv+a/01By5LQmnUZVZTuqsetD00eb0mwpIoyZ4C/wNZ4goT1eWCNX8z+UKxbeprTHspFBaRD8LG67Ws+WyoDDc="
