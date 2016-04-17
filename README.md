@@ -1,6 +1,6 @@
 angularjs-cordova-gulp-browserify-boilerplate
 =====================================
-[![devDependency Status](https://david-dm.org/jakemmarsh/angularjs-gulp-browserify-boilerplate/dev-status.svg)](https://david-dm.org/jakemmarsh/angularjs-gulp-browserify-boilerplate#info=devDependencies)
+[![Build Status](https://travis-ci.org/jakemmarsh/angularjs-gulp-browserify-boilerplate.svg)](https://travis-ci.org/jakemmarsh/angularjs-gulp-browserify-boilerplate) [![devDependency Status](https://david-dm.org/jakemmarsh/angularjs-gulp-browserify-boilerplate/dev-status.svg)](https://david-dm.org/jakemmarsh/angularjs-gulp-browserify-boilerplate#info=devDependencies)
 
 A boilerplate using AngularJS SASS, Gulp, and Browserify that also utilizes [these best AngularJS practices](https://github.com/toddmotto/angularjs-styleguide)  and Gulp best practices from [this resource](https://github.com/greypants/gulp-starter). Cordova support intergrated for quick app developement.
 
@@ -183,11 +183,6 @@ In this boilerplate, two end-to-end test examples are provided:
 More examples can be seen at the above link for Protractor.
 
 All e2e tests are run with `gulp protractor`.
-
-**Notes:**
-
-- before running the Protractor tests, the application server must be running (start it with `gulp dev`)
-- the Protractor library used for the end-to-end tests may require installing the [Java JDK](http://www.oracle.com/technetwork/java/javase/downloads/index-jsp-138363.html) beforehand.
 
 ##### Unit Tests
 

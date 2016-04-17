@@ -1,17 +1,15 @@
-/*global angular */
-
 'use strict';
 
 describe('Unit: Constants', function() {
 
-  var constants;
+  let constants;
 
   beforeEach(function() {
     // instantiate the app module
     angular.mock.module('app');
 
     // mock the directive
-    angular.mock.inject(function(AppSettings) {
+    angular.mock.inject((AppSettings) => {
       constants = AppSettings;
     });
   });

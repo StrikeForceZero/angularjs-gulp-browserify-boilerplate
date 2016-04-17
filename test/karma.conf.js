@@ -12,7 +12,8 @@ const karmaBaseConfig = {
   frameworks: ['jasmine', 'browserify'],
 
   preprocessors: {
-    'app/js/**/*.js': ['browserify', 'coverage']
+    'app/js/**/*.js': ['browserify', 'coverage'],
+    'test/**/*.js': ['browserify']
   },
 
   browsers: ['Chrome'],
@@ -74,6 +75,6 @@ const ciAdditions = {
 };
 
 module.exports = function(config) {
-  const isCI = process.env.CI;
+  const isCI = process.env.CI && Boolean(process.env.TRAVIS_PULL_REQUEST);
   config.set(isCI ? Object.assign(karmaBaseConfig, ciAdditions) : karmaBaseConfig);
 };

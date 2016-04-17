@@ -1,16 +1,14 @@
-/*global angular */
-
 'use strict';
 
 describe('Unit: ExampleCtrl', function() {
 
-  var ctrl;
+  let ctrl;
 
   beforeEach(function() {
     // instantiate the app module
     angular.mock.module('app');
 
-    angular.mock.inject(function($controller) {
+    angular.mock.inject(($controller) => {
       ctrl = $controller('ExampleCtrl');
     });
   });

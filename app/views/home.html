@@ -3,10 +3,13 @@
 <h3 class="heading -medium">Here is a fancy number served up courtesy of Angular: <span class="number-example">{{ home.number }}</span></h3>
 <h3 class="heading -medium">Cordova 'Device Ready' Event Status served up courtesy of Angular: <span class="device-ready-example">{{ home.deviceReadyStatus }}</span></h3>
 
-<img src="images/angular.png" height="100" example-directive />
+<img src="images/angular.png" height="100" />
 <img src="images/cordova.png" height="100" />
 <img src="images/gulp.png" height="100" />
 <img src="images/browserify.png" height="100" />
+
+<hr/>
+<div example-directive title="WOW!" click-message="You clicked me!">Directive is not loaded.</div>
 
 <h4 class="heading -small">Device Info</h4>
 <table ng-if="home.deviceReady">

@@ -1,4 +1,4 @@
-require('babel-core/register');
+require('babel-register');
 
 const gulpConfig = require('../gulp/config').default;
 
@@ -6,7 +6,7 @@ exports.config = {
 
   allScriptsTimeout: 11000,
 
-  baseUrl: `http://localhost:${gulpConfig.browserPort}/`,
+  baseUrl: `http://localhost:${gulpConfig.testPort}/`,
 
   capabilities: {
     browserName: 'chrome',
