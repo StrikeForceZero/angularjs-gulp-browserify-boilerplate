@@ -40,11 +40,12 @@ function buildScript(file) {
     loadBrowserPlatform();
   }
 
+  //TODO: clean this up. Automate platform installation through npm module.
   function loadBrowserPlatform(){
     let platformWWW = './platforms/browser/www/';
 
     if(!fs.existsSync(platformWWW)){
-      handleErrors('Browser platform not installed!!! Cordova will FAIL');
+      gutil.log(gutil.colors.yellow('Error:'),'Browser platform not installed!!! Cordova will FAIL');
       gutil.log(gutil.colors.yellow('Info:'),'Please run', gutil.colors.cyan('cordova platform add browser'));
       return;
     }
